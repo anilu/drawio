@@ -4,7 +4,7 @@
 Draw.loadPlugin(function(ui)
 {
 	// Adds resource for action
-	mxResources.parse('extractText=Splunk ITSI Export');
+	mxResources.parse('extractText=Extract Text....');
 
 	// Adds action
 	ui.actions.addAction('extractText', function()
